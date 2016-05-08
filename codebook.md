@@ -21,7 +21,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-###Atribute Information
+###Attribute Information
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 - A 66-feature vector with `mean()` and `std()` of time and frequency domain variables as output 
