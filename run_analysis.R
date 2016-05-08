@@ -98,8 +98,8 @@ run_analysis <- function() {
     ##### save the data here before getting tidy set
     save_output_file <- function(name, dataset) {
         if(!file.exists("./output")) { dir.create("./output")}
-        ofpname <- file.path("./output", paste(name, ".csv", sep=""))
-        write.csv(dataset, ofpname)
+        ofpname <- file.path("./output", paste(name, ".txt", sep=""))
+        write.table(dataset, ofpname, row.name=FALSE)
     }
     save_output_file("samsung_req", samsung_req_data)
     
