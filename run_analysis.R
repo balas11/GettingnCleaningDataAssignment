@@ -101,7 +101,7 @@ run_analysis <- function() {
         ofpname <- file.path("./output", paste(name, ".csv", sep=""))
         write.csv(dataset, ofpname)
     }
-    save_output_file("samsung-req", samsung_req_data)
+    save_output_file("samsung_req", samsung_req_data)
     
     #######
     ## Step 5
