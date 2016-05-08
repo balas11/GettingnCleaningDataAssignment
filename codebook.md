@@ -24,7 +24,6 @@ These signals were used to estimate variables of the feature vector for each pat
 ###Atribute Information
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-
 - A 66-feature vector with `mean()` and `std()` of time and frequency domain variables as output 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
