@@ -17,10 +17,10 @@ Submitted by : *Balasubramanian Sundarasamy*
 
 ###Result
 1. A `data` directory will be created and in which the data files will be downloaded and unzipped by the script
-2. The result csv files are stored in `output` directory
+2. The result files are stored in `output` directory
 3. The output files are
-	. `samsung_req.csv` with the variables corresponding to `mean` & `std` of measurements
-	. `samsung_tidy.csv` contains the avreage of variables from above grouped by subject and activity
+	. `samsung_req.txt` with the variables corresponding to `mean` & `std` of measurements
+	. `samsung_tidy.txt` contains the avreage of variables from above grouped by subject and activity
 	
 ###Required Libraries
 . httr
@@ -143,8 +143,8 @@ Submitted by : *Balasubramanian Sundarasamy*
 ```
     save_output_file <- function(name, dataset) {
         if(!file.exists("./output")) { dir.create("./output")}
-        ofpname <- file.path("./output", paste(name, ".csv", sep=""))
-        write.csv(dataset, ofpname)
+        ofpname <- file.path("./output", paste(name, ".txt", sep=""))
+        write.table(dataset, ofpname, row.name=FALSE)
     }
 ```
 ####Save the result of step. 4

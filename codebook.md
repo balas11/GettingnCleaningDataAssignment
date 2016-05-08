@@ -29,7 +29,7 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ##Analysis output and variables
-### mean & std variables extracted - `samsung_req.csv`
+### mean & std variables extracted - `samsung_req.txt`
 
 1. timeBodyAccelerometer-mean()-X
 2. timeBodyAccelerometer-mean()-Y
@@ -100,7 +100,7 @@ For each record in the dataset it is provided:
 67. Subject
 68. Activity
 
-### Tidy set with average of variables for subject and activity - `samsung_tidy.csv`
+### Tidy set with average of variables for subject and activity - `samsung_tidy.txt`
 1. Subject
 2. Activity
 3. mean_of_timeBodyAccelerometer-mean()-X
